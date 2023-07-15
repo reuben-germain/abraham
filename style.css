@@ -1,0 +1,89 @@
+* { 
+    margin: 0;
+  }
+  
+  h1 {
+    text-align: center;
+    word-spacing: 0.3em;
+    font-family: "Arial Narrow Bold", sans-serif;
+    padding: 20px;
+    background-color: red;
+    height: 60px;
+    color: whitesmoke;
+    text-shadow: 3px 3px #5a5a5a;
+    letter-spacing: 0.4em;
+  }
+  
+  span {
+    color: black;
+    font-family: "Nanum Brush Script", cursive;
+  }
+  
+  span,
+  .yellow {
+    font-size: 3.125rem;
+  }
+  
+  .yellow {
+    color: yellow;
+  }
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .container section {
+    flex-basis: 100%;
+  }
+  h2 {
+    line-height: 60px;
+  }
+  
+  .main-section {
+    flex-basis: 100%;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .side-section {
+    flex-basis: 50%;
+    background-color: #e8e8e8;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  img {
+    width: 50em;
+  }
+  
+  .container-b {
+    display: grid;
+    flex-wrap: wrap;
+    gap: 2.3em;
+    grid-template-columns: repeat(8, auto);
+    grid-template-areas:
+      "left ."
+      "left .";
+  }
+  .left {
+    font-size: 2.2em;
+  }
+  .right {
+    width: 20em;
+  }
+  
+  footer {
+    height: 60px;
+    background-color: red;
+    word-spacing: 0.3em;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .side-section {
+      flex-basis: 100%;
+    }
+  }  
