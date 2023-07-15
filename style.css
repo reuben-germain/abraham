@@ -37,6 +37,11 @@
   }
   h2 {
     line-height: 60px;
+    background-color: yellow;
+    opacity: 0.6;
+    border-radius: 50%;
+    text-align: center;
+    margin-bottom: 1.4em;
   }
   
   .main-section {
@@ -55,11 +60,19 @@
   img {
     width: 50em;
   }
+
+  a{
+    line-height: 30px;
+    text-decoration: none;
+  }
   
   .container-b {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
     display: grid;
     flex-wrap: wrap;
-    gap: 2.3em;
+    gap: 2em;
     grid-template-columns: repeat(8, auto);
     grid-template-areas:
       "left ."
@@ -70,6 +83,7 @@
   }
   .right {
     width: 20em;
+    border-radius: 15%;
   }
   
   footer {
