@@ -52,6 +52,10 @@ h2 {
     padding: 1.25em;
 }
 
+ol li{
+    font-size: 1.2em;
+}
+
 .main-section::before {
     content: "";
     background-image: url(https://upload.wikimedia.org/wikipedia/en/5/53/Arsenal_FC.svg);
