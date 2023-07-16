@@ -1,23 +1,23 @@
 /* Extra small devices (phones) */
 @media only screen and (max-width: 480px) {
     header h1 {
-        font-size: 24px;
+        font-size: 1.5em;
         width: 100%;
         height: auto;
     }
 
     section.main-section p {
-        font-size: 14px;
+        font-size: 0.875em;
         width: auto;
     }
 
     section.main-section ol li {
-        padding-left: 10px;
-        margin-bottom: 20px;
+        padding-left: 0.625em;
+        margin-bottom: 1.25em;
     }
 
     section.main-section ul li {
-        padding-left: 10px;
+        padding-left: 0.625em;
     }
 
     section.side-section h2 {
@@ -35,16 +35,16 @@
     }
 
     section.side-section p {
-        font-size: 12px;
+        font-size: 0.75em;
     }
 
     .container-b {
-        width: auto;
+        width: 100%;
         height: auto;
     }
 
     .par {
-        width: 340px;
+        width: 21.25em;
     }
 
     .container-b .left img {
@@ -55,7 +55,7 @@
     }
 
     .left {
-        width: 400px;
+        width: 25em;
         height: auto;
     }
 }
@@ -63,47 +63,58 @@
 /* Small devices (tablets) */
 @media only screen and (min-width: 481px) and (max-width: 768px) {
     header h1 {
-        font-size: 32px;
+        font-size: 2em;
     }
 
     section.main-section p {
-        font-size: 16px;
+        font-size: 1.5625em;
     }
 
     section.main-section ol li {
-        padding-left: 15px;
+        padding-left: 1em;
     }
 
     section.main-section ul li {
-        padding-left: 15px;
+        padding-left: 0.9375em;
     }
 
+    .par{
+        margin-right: 12.5em;
+    }
     section.side-section img {
         width: 100%;
         height: auto;
+        margin-left: 0.5em;
+        margin-bottom: 2em;
+    }
+
+    section.side-section .eli{
+        margin-left: 0.5em;
     }
 
     section.side-section p {
-        font-size: 14px;
+        font-size: 1.5rem;
+        
+        text-align: start;
     }
 }
 
 /* Medium devices (desktops) */
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
     header h1 {
-        font-size: 48px;
+        font-size: 3em;
     }
 
     section.main-section p {
-        font-size: 18px;
+        font-size: 1.125em;
     }
 
     section.main-section ol li {
-        padding-left: 20px;
+        padding-left: 1.25em;
     }
 
     section.main-section ul li {
-        padding-left: 20px;
+        padding-left: 1.25em;
     }
 
     section.side-section img {
@@ -112,7 +123,20 @@
     }
 
     section.side-section p {
-        font-size: 16px;
+        font-size: 1em;
+    }
+
+    .container-b{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container-b .left img{
+        width: 50%;
+        margin-left: 12em;
+        margin-top: 1em;
+        margin-bottom: 1.5em;
     }
 }
 
@@ -123,17 +147,17 @@
     }
 
     section.main-section p {
-        font-size: 20px;
+        font-size: 1.25em;
     }
 
     section.main-section ol li {
-        padding-left: 25px;
+        padding-left: 1.5625em;
         margin-bottom: 1em;
     }
 
     section.main-section ul li {
-        padding-left: 25px;
-        font-size: 20px;
+        padding-left: 1.5625em;
+        font-size: 1.25em;
     }
 
     section.side-section img {
@@ -148,7 +172,7 @@
     }
 
     section.side-section p {
-        font-size: 20px;
+        font-size: 1.25em;
         text-align: justify;
     }
 }

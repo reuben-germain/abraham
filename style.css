@@ -6,11 +6,11 @@ h1 {
     text-align: center;
     word-spacing: 0.3em;
     font-family: "Arial Narrow Bold", sans-serif;
-    padding: 20px;
+    padding: 1.25em;
     background-color: red;
-    height: 60px;
+    height: 3.75em;
     color: whitesmoke;
-    text-shadow: 3px 3px #5a5a5a;
+    text-shadow: 0.1875em 0.1875em #5a5a5a;
     letter-spacing: 0.4em;
 }
 
@@ -38,7 +38,7 @@ span,
 }
 
 h2 {
-    line-height: 60px;
+    line-height: 3.75em;
     background-color: yellow;
     opacity: 0.6;
     border-radius: 50%;
@@ -49,7 +49,7 @@ h2 {
 .main-section {
     flex-basis: 100%;
     background-color: #f2f2f2;
-    padding: 20px;
+    padding: 1.25em;
 }
 
 .main-section::before {
@@ -57,11 +57,11 @@ h2 {
     background-image: url(https://upload.wikimedia.org/wikipedia/en/5/53/Arsenal_FC.svg);
     background-size: cover;
     position: absolute;
-    margin-top: 120px;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
+    margin-top: 7.5em;
+    top: 0em;
+    right: 0em;
+    bottom: 0em;
+    left: 0em;
     width: 100%;
     height: 230vh;
     opacity: 0.1;
@@ -70,7 +70,7 @@ h2 {
 .side-section {
     flex-basis: 50%;
     background-color: #e8e8e8;
-    padding: 20px;
+    padding: 1.25em;
     box-sizing: border-box;
 }
 
@@ -82,7 +82,7 @@ a {
     position: relative;
     font-size: 1.4em;
     z-index: 1;
-    line-height: 30px;
+    line-height: 1.875em;
     text-decoration: none;
     color: blue;
 }
@@ -119,7 +119,7 @@ p {
 }
 
 footer {
-    height: 60px;
+    height: 3.75em;
     background-color: red;
     word-spacing: 0.3em;
     color: whitesmoke;
@@ -129,5 +129,8 @@ footer {
 }
 
 .w3 {
-    margin: 10px;
+    margin: 0.625em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
