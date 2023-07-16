@@ -1,0 +1,154 @@
+/* Extra small devices (phones) */
+@media only screen and (max-width: 480px) {
+    header h1 {
+        font-size: 24px;
+        width: 100%;
+        height: auto;
+    }
+
+    section.main-section p {
+        font-size: 14px;
+        width: auto;
+    }
+
+    section.main-section ol li {
+        padding-left: 10px;
+        margin-bottom: 20px;
+    }
+
+    section.main-section ul li {
+        padding-left: 10px;
+    }
+
+    section.side-section h2 {
+        width: 13em;
+        margin-top: 1em;
+    }
+
+    section.side-section img {
+        width: 100%;
+        height: auto;
+    }
+
+    section.side-section img.eli {
+        width: 55%;
+    }
+
+    section.side-section p {
+        font-size: 12px;
+    }
+
+    .container-b {
+        width: auto;
+        height: auto;
+    }
+
+    .par {
+        width: 340px;
+    }
+
+    .container-b .left img {
+        width: 50%;
+        margin-left: 6em;
+        margin-top: 1em;
+        margin-bottom: 1.5em;
+    }
+
+    .left {
+        width: 400px;
+        height: auto;
+    }
+}
+
+/* Small devices (tablets) */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    header h1 {
+        font-size: 32px;
+    }
+
+    section.main-section p {
+        font-size: 16px;
+    }
+
+    section.main-section ol li {
+        padding-left: 15px;
+    }
+
+    section.main-section ul li {
+        padding-left: 15px;
+    }
+
+    section.side-section img {
+        width: 100%;
+        height: auto;
+    }
+
+    section.side-section p {
+        font-size: 14px;
+    }
+}
+
+/* Medium devices (desktops) */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    header h1 {
+        font-size: 48px;
+    }
+
+    section.main-section p {
+        font-size: 18px;
+    }
+
+    section.main-section ol li {
+        padding-left: 20px;
+    }
+
+    section.main-section ul li {
+        padding-left: 20px;
+    }
+
+    section.side-section img {
+        width: 100%;
+        height: auto;
+    }
+
+    section.side-section p {
+        font-size: 16px;
+    }
+}
+
+/* Large devices (large desktops) */
+@media only screen and (min-width: 1025px) {
+    header h1 {
+        width: auto;
+    }
+
+    section.main-section p {
+        font-size: 20px;
+    }
+
+    section.main-section ol li {
+        padding-left: 25px;
+        margin-bottom: 1em;
+    }
+
+    section.main-section ul li {
+        padding-left: 25px;
+        font-size: 20px;
+    }
+
+    section.side-section img {
+        width: 100%;
+        height: auto;
+    }
+
+    section.side-section img.right {
+        width: 50%;
+        margin-left: 18em;
+        margin-bottom: 1em;
+    }
+
+    section.side-section p {
+        font-size: 20px;
+        text-align: justify;
+    }
+}

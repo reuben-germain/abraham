@@ -35,7 +35,6 @@ span,
 
 .container section {
     flex-basis: 100%;
-
 }
 
 h2 {
@@ -110,6 +109,10 @@ p {
     text-align: start;
 }
 
+.left p{
+    text-align: justify;
+}
+
 .right {
     width: 20em;
     border-radius: 15%;
@@ -124,12 +127,7 @@ footer {
     align-items: center;
     justify-content: center;
 }
-.w3{
-    margin: 10px;
-}
 
-@media only screen and (max-width: 767px) {
-    .side-section {
-        flex-basis: 100%;
-    }
+.w3 {
+    margin: 10px;
 }
