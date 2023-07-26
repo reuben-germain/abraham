@@ -4,4 +4,5 @@
 
 [Link](https://reuben-germain.github.io/abraham/)
 
+---
 ![Full Webpage Image](abraham_full_page_image.jpeg)
