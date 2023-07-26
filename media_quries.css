@@ -34,8 +34,10 @@
         width: 100%;
     }
 }
+
 @media (max-width: 768px) {
     .container-b {
-        flex-direction: column; /* Stack items vertically on smaller screens */
+        flex-direction: column;
+        /* Stack items vertically on smaller screens */
     }
 }

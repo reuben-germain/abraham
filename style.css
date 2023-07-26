@@ -32,12 +32,13 @@ h1 span {
 .yellow {
     color: yellow;
 }
-h3{
+
+h3 {
     text-align: right;
     text-transform: lowercase;
 }
 
-h3 > em > span{
+h3>em>span {
     color: blue;
 }
 
@@ -125,12 +126,14 @@ a {
 
 .right {
     max-width: 200px;
-    flex: 1 1 200px; /* Allow the image to grow up to 200px, but not shrink smaller than that */
+    flex: 1 1 200px;
+    /* Allow the image to grow up to 200px, but not shrink smaller than that */
 }
 
 .left {
     font-size: 1.2rem;
-    flex: 1; /* Allow the text to take the remaining space */
+    flex: 1;
+    /* Allow the text to take the remaining space */
 }
 
 
